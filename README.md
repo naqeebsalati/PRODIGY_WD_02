@@ -3,6 +3,8 @@ Stopwatch Web Application ⏱️
 Description
 This is a fully functional Stopwatch Web Application built as part of my internship at ProdigyInfoTech. The project is developed using HTML, CSS, and JavaScript, and features a minimalist design with essential functionalities like start, pause, reset, and lap recording. The application is also responsive, ensuring it works well across various device sizes.
 
+CHECK OUT THE LIVE SITE HERE: https://naqeebsalati.github.io/PRODIGY_WD_02/
+
 Features:
 1. Start/Pause Functionality: Toggle between starting and pausing the stopwatch.
 2. Reset: Reset the stopwatch back to zero.
