@@ -1,0 +1,77 @@
+/* Basic reset for margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+/* Container holding the stopwatch */
+.container {
+  background: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Display styling for time */
+#display {
+  font-size: 2.5rem;
+  margin: 20px 0;
+  color: #333;
+}
+
+/* Button styling */
+.controls button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#start-pause {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#reset {
+  background-color: #f44336;
+  color: white;
+}
+
+#lap {
+  background-color: #008CBA;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+/* Styling the laps section */
+#laps {
+  margin-top: 20px;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px;
+}
+
+
